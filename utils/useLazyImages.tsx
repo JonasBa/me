@@ -5,7 +5,7 @@ const config = {
   threshold: 0.01,
 };
 
-function preloadImage(img) {
+function preloadImage(img:any) {
   const src = img.getAttribute("data-src"),
     holderImage = new Image();
 
