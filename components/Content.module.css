@@ -1,0 +1,7 @@
+.Content {
+    max-width: 68ch;
+    margin: auto;
+    /* Some people scroll as they read and
+    keep their sight centered on the screen. */
+    margin-bottom: 50vh;
+}

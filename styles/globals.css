@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.68;
+}
+
+p {
+  margin: 8px 0;
+  letter-spacing: .2px;
+  padding: 1em 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h4,h3,h2,h1 {
+  margin-bottom: 0;
+}
+
+main {
+  padding: 0 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+  }
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  padding: 24px;
+}
+
+
+* {
+  box-sizing: border-box;
+}

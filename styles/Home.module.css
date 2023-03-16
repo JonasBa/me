@@ -1,0 +1,22 @@
+.Header {
+  text-align: center;
+  margin: 8ch 0 8ch 0;
+}
+
+.HeaderTitle {
+  font-size: 42px;
+  margin-bottom: 0;
+}
+
+.HeaderSubtitle {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.Summary {
+  margin-bottom: 0;
+}
+
+.SummaryTitle {
+  font-weight: normal;
+}
