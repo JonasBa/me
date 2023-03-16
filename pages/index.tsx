@@ -40,9 +40,9 @@ export default function Home({ posts }: { posts: any }) {
         </header>
         <section>
           <Content>
-            {posts.map((p) => {
+            {posts.map((p:any,i: any) => {
               return (
-                <a className={styles.Summary} href={`/blog/${p.slug}`}>
+                <a key={i} className={styles.Summary} href={`/blog/${p.slug}`}>
                   {/* <span>{new Date(p.date).toLocaleDateString()}</span> */}
                   <h3 className={styles.SummaryTitle}>{p.title}</h3>
                 </a>
